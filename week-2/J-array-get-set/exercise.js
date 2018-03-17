@@ -20,10 +20,12 @@ var names = ["Irina", "Ashleigh", "Mozafar"];
 
 console.log(first(numbers));
 console.log(last(names));
-
-/* 
-  EXPECTED RESULT
+console.log(names.length);
+console.log(names.indexOf("Mozafer"));
+console.log(names.indexOf("Ashleigh")); 
+  
+/*EXPECTED RESULT
   ---------------
   1
   Mozafar
-*/
+// */

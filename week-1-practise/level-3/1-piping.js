@@ -9,8 +9,8 @@
 
   As a learning exercise (you wouldn't do this normally), do all of the above in 1 line of code 
 */
-
-var startingValue = 5;
+                      
+var startingValue = 5;   
 
 result = format(add(multiply(startingValue, 2), 10));
 

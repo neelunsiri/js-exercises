@@ -10,7 +10,8 @@ var numbers = [2, 2, 3]; // Don't change this array literal declaration
 
 numbers[0] = 1;
 numbers[3] = 4;
-
+numbers.push(5);
+numbers.push("Rukmini");
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

@@ -3,8 +3,11 @@
 // - is a positive number
 // - is less than or equal to 100
 // Tip: write other small functions for each requirement
+var num=5;
+function validate(num) {
+  function positive
 
-function validate(num) {}
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE

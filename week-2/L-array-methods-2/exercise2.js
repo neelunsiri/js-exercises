@@ -7,11 +7,19 @@
   Tip: use the string method .split() and the array method .join()
 */
 
-function capitalise(str) {
-  return str[0].toUpperCase() + str.slice(1, str.length);
-}
+// function capitalise(str) {
+//   return str[0].toUpperCase() + str.slice(1, str.length);
+// }
 
-/* 
+function capitalise(str) {
+  var firstFunction = str.split("")[0].toUpperCase();
+  var secondFunction = str
+    .split("")
+    .splice(1)
+    .join("");
+  return firstFunction+secondFunction;
+}
+/*} 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
 var name = "daniel";
